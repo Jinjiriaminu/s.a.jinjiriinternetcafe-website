@@ -1,0 +1,175 @@
+
+body {
+  background-color: rgb(1, 46, 1);
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+.main-header-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 80px;
+  margin-bottom: 20px;
+  padding-left: 200px;
+}
+
+
+.middles-section ul {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  text-decoration: none;
+  align-items: center;
+  justify-items: center;
+}
+
+.middles-section ul li {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  cursor: pointer;
+
+  
+  
+  
+}
+
+.middles-section ul li:hover {
+  border: 1px solid white;
+  transition: all 0.2s;
+} 
+
+.right-section {
+  padding-left: 200px;
+}
+
+.right-section button {
+  height: 82px;
+  width: 85px;
+  border-radius: 40px;
+  border: solid 1px yellow;
+  
+}
+
+.right-section img {
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+
+/*
+.footer-main-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 80px;
+ 
+}
+*/
+
+
+.main-body {
+  background-color: rgb(1, 24, 1);
+  font-size: 16px;
+  color: white;
+  width: 600px;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 350px;
+  
+}
+
+.main-body .images-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  column-gap: 20px;
+  margin-left: 60px;
+
+}
+
+.main-body .images-container button {
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  border: solid 1px rgb(255, 255, 2);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.images-container button:active {
+  border: solid 10px rgb(255, 2, 2);
+  transition: 0.1s all;
+}
+
+.main-body .images-container img {
+  height: 80px;
+
+}
+
+
+.result-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  border-bottom: solid 1px yellow;
+  text-align: center;
+  
+}
+
+.computer-and-you-container p {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.computer-and-you-container img {
+  height: 80px; 
+}
+
+.scores-container {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.handle-game-container button {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px rgb(4, 241, 4);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(0, 37, 0);
+}
+
+.handle-game-container button:hover {
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border: solid 3px red;
+}
+
+.handle-game-container button:active {
+  border: solid 3px rgb(255, 255, 255);
+  transition: 0.1s all;
+}
+
+
+
+
+
+
